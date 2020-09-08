@@ -7,8 +7,7 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 
+Vue.config.productionTip = false;
+Vue.config.devtools = false;
 
-import EmblaCarousel from 'embla-carousel'
-const emblaNode = document.getElementById('embla')
 
-const embla = EmblaCarousel(emblaNode)
