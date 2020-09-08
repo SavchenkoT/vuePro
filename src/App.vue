@@ -8,11 +8,13 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import slider from '.components/slider.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
+    slider
   }
 }
 </script>
